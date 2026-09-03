@@ -23,12 +23,13 @@ async def handle_receipt_photo(message: Message, bot: Bot):
     msg = await message.answer("🔍 Chek tahlil qilinmoqda, kuting...")
 
     try:
+        # OCR funksiyasi ortiqcha parametrarsiz chaqiriladi
         result = await parse_receipt(image_bytes)
         tx_id = getattr(result, 'transaction_id', None)
         amount = getattr(result, 'amount', None)
         raw_text = getattr(result, 'raw_text', "")
     except Exception as e:
-        logging.error(f"OCR error: {e}")
+        logging.error(f"OCR tahlilda xatolik: {e}")
         tx_id, amount, raw_text = None, None, ""
 
     if tx_id and await is_transaction_used(tx_id):
@@ -37,7 +38,7 @@ async def handle_receipt_photo(message: Message, bot: Bot):
 
     receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, raw_text)
     
-    # Chekni adminlarga yuborish
+    # Adminlarga yuborish
     sent_count = 0
     for admin_id in ADMIN_IDS:
         try:
@@ -55,9 +56,9 @@ async def handle_receipt_photo(message: Message, bot: Bot):
             )
             sent_count += 1
         except (TelegramForbiddenError, TelegramBadRequest) as e:
-            logging.warning(f"⚠️ Admin {admin_id} botni bloklagan yoki xabar yetib bormadi: {e}")
+            logging.warning(f"⚠️ Admin {admin_id} botni bloklagan: {e}")
         except Exception as e:
-            logging.error(f"❌ Admin {admin_id} uchun kutilmagan xato: {e}")
+            logging.error(f"❌ Admin {admin_id} uchun xatolik: {e}")
 
     await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi.")
 
