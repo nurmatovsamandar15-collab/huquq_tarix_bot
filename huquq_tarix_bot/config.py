@@ -6,8 +6,9 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip()]
 
-PAYMENT_CARD = os.getenv("PAYMENT_CARD", "8600000000000000")
-PAYMENT_CARD_OWNER = os.getenv("PAYMENT_CARD_OWNER", "Ism Familiya")
+# Karta va ega ma'lumotlari yangilandi
+PAYMENT_CARD = os.getenv("PAYMENT_CARD", "4073420082003835")
+PAYMENT_CARD_OWNER = os.getenv("PAYMENT_CARD_OWNER", "Nurmatov S.")
 SUBSCRIPTION_PRICE = int(os.getenv("SUBSCRIPTION_PRICE", "20000"))
 
 OCR_MIN_AMOUNT = int(os.getenv("OCR_MIN_AMOUNT", "18000"))
