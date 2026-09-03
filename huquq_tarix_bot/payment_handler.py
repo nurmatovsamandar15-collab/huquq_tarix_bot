@@ -1,6 +1,7 @@
 import logging
 from aiogram import Router, F, Bot
 from aiogram.types import Message, CallbackQuery
+from aiogram.exceptions import TelegramBadRequest, TelegramForbiddenError
 from db import (
     save_receipt, is_transaction_used,
     grant_subscription, approve_receipt, reject_receipt
@@ -27,21 +28,17 @@ async def handle_receipt_photo(message: Message, bot: Bot):
         amount = getattr(result, 'amount', None)
         raw_text = getattr(result, 'raw_text', "")
     except Exception as e:
-        logging.error(f"OCR tahlilda xatolik: {e}")
+        logging.error(f"OCR error: {e}")
         tx_id, amount, raw_text = None, None, ""
 
     if tx_id and await is_transaction_used(tx_id):
-        await msg.edit_text("❌ Ushbu chek ilgari ishlatilgan! Takroriy cheklar qabul qilinmaydi.")
+        await msg.edit_text("❌ Ushbu chek ilgari ishlatilgan!")
         return
 
     receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, raw_text)
     
-    if not ADMIN_IDS:
-        logging.error("❌ ADMIN_IDS ro'yxati bo'sh!")
-        await msg.edit_text("⚠️ Tizimda admin sozlamalari xatosi bor (ADMIN_IDS topilmadi).")
-        return
-
-    sent_to_admin = False
+    # Chekni adminlarga yuborish
+    sent_count = 0
     for admin_id in ADMIN_IDS:
         try:
             await bot.send_photo(
@@ -56,19 +53,13 @@ async def handle_receipt_photo(message: Message, bot: Bot):
                 reply_markup=admin_receipt_kb(receipt_id),
                 parse_mode="Markdown"
             )
-            sent_to_admin = True
-            logging.info(f"✅ Chek adminga ({admin_id}) yuborildi.")
+            sent_count += 1
+        except (TelegramForbiddenError, TelegramBadRequest) as e:
+            logging.warning(f"⚠️ Admin {admin_id} botni bloklagan yoki xabar yetib bormadi: {e}")
         except Exception as e:
-            logging.error(f"❌ Admin {admin_id} ga yuborishda xatolik: {e}")
+            logging.error(f"❌ Admin {admin_id} uchun kutilmagan xato: {e}")
 
-    if sent_to_admin:
-        await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi. Tez orada obunangiz yoqiladi.")
-        
-        # Agar rasm yuborgan odam va admin ID si bir xil bo'lsa (o'zingiz test qilayotgan bo'lsangiz):
-        if message.from_user.id in ADMIN_IDS:
-            await message.answer("ℹ️ Siz adminsiz: Chek xabari yuqorida interaktiv tugmalar bilan kelgan bo'lishi kerak.")
-    else:
-        await msg.edit_text("❌ Chekni adminga yuborishda xatolik yuz berdi. Render Log bo'limini tekshiring.")
+    await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi.")
 
 @router.callback_query(F.data.startswith("approve_"))
 async def approve_pay(call: CallbackQuery, bot: Bot):
@@ -76,7 +67,10 @@ async def approve_pay(call: CallbackQuery, bot: Bot):
     user_id = await approve_receipt(receipt_id, call.from_user.id)
     if user_id:
         await grant_subscription(user_id, granted_by="admin")
-        await bot.send_message(user_id, "🎉 Siz yuborgan to'lov admin tomonidan tasdiqlandi! VIP obuna yoqildi.")
+        try:
+            await bot.send_message(user_id, "🎉 Siz yuborgan to'lov admin tomonidan tasdiqlandi! VIP obuna yoqildi.")
+        except Exception:
+            pass
         await call.message.edit_caption(caption=f"{call.message.caption}\n\n✅ **ADMIN TARAFIDAN TASDIQLANDI**")
     await call.answer()
 
@@ -85,6 +79,9 @@ async def reject_pay(call: CallbackQuery, bot: Bot):
     receipt_id = int(call.data.split("_")[1])
     user_id = await reject_receipt(receipt_id, call.from_user.id)
     if user_id:
-        await bot.send_message(user_id, "❌ Siz yuborgan chek rad etildi.")
+        try:
+            await bot.send_message(user_id, "❌ Siz yuborgan chek rad etildi.")
+        except Exception:
+            pass
         await call.message.edit_caption(caption=f"{call.message.caption}\n\n❌ **RAD ETILDI**")
     await call.answer()
