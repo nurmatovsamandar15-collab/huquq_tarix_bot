@@ -1,40 +1,4 @@
-import asyncio
-import logging
-import os
-from aiohttp import web
-from aiogram import Bot, Dispatcher
-from config import BOT_TOKEN
-from payment_handler import router as payment_router
-
-# Logging sozlamalari
-logging.basicConfig(level=logging.INFO)
-
-# Render uchun soxta Web Server (Port scan timeout xatosini oldini oladi)
-async def handle_health_check(request):
-    return web.Response(text="Bot is running!")
-
-async def start_web_server():
-    app = web.Application()
-    app.router.add_get("/", handle_health_check)
-    runner = web.AppRunner(app)
-    await runner.setup()
-    port = int(os.getenv("PORT", 8080))
-    site = web.TCPSite(runner, "0.0.0.0", port)
-    await site.start()
-    logging.info(f"🌐 Fake Web Server {port}-portda ishga tushdi.")
-
-async def main():
-    bot = Bot(token=BOT_TOKEN)
-    dp = Dispatcher()
-
-    # Routerlarni ulash
-    dp.include_router(payment_router)
-
-    # Web server va Bot pollingni bir vaqtda ishga tushirish
-    await asyncio.gather(
-        start_web_server(),
-        dp.start_polling(bot)
-    )
-
-if __name__ == "__main__":
-    asyncio.run(main())
+aiogram>=3.0.0
+aiohttp
+pytesseract
+Pillow
