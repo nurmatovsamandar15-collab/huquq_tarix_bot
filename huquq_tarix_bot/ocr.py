@@ -10,3 +10,6 @@ def extract_text_from_image(image_bytes: bytes) -> str:
     except Exception as e:
         print(f"OCR Error: {e}")
         return ""
+
+# payment_handler.py kutayotgan funksiya nomi:
+parse_receipt = extract_text_from_image
