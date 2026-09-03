@@ -21,12 +21,14 @@ async def handle_receipt_photo(message: Message, bot: Bot):
 
     msg = await message.answer("🔍 Chek tahlil qilinmoqda, kuting...")
 
-    # OCR funksiyasi ortiqcha argumentlarsiz chaqiriladi
-    result = await parse_receipt(image_bytes)
-
-    tx_id = getattr(result, 'transaction_id', None)
-    amount = getattr(result, 'amount', None)
-    raw_text = getattr(result, 'raw_text', "")
+    try:
+        result = await parse_receipt(image_bytes)
+        tx_id = getattr(result, 'transaction_id', None)
+        amount = getattr(result, 'amount', None)
+        raw_text = getattr(result, 'raw_text', "")
+    except Exception as e:
+        logging.error(f"OCR tahlilda xatolik: {e}")
+        tx_id, amount, raw_text = None, None, ""
 
     if tx_id and await is_transaction_used(tx_id):
         await msg.edit_text("❌ Ushbu chek ilgari ishlatilgan! Takroriy cheklar qabul qilinmaydi.")
@@ -35,12 +37,15 @@ async def handle_receipt_photo(message: Message, bot: Bot):
     receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, raw_text)
     
     if not ADMIN_IDS:
-        logging.error("❌ ADMIN_IDS bo'sh! Render Environment Variables sozlamasini tekshiring.")
+        logging.error("❌ ADMIN_IDS ro'yxati bo'sh!")
+        await msg.edit_text("⚠️ Tizimda admin sozlamalari xatosi bor (ADMIN_IDS topilmadi).")
+        return
 
+    sent_to_admin = False
     for admin_id in ADMIN_IDS:
         try:
             await bot.send_photo(
-                chat_id=admin_id,
+                chat_id=int(admin_id),
                 photo=photo.file_id,
                 caption=(
                     f"⚠️ **Yangi chek (Qo'lda tasdiqlash):**\n"
@@ -51,10 +56,19 @@ async def handle_receipt_photo(message: Message, bot: Bot):
                 reply_markup=admin_receipt_kb(receipt_id),
                 parse_mode="Markdown"
             )
+            sent_to_admin = True
+            logging.info(f"✅ Chek adminga ({admin_id}) yuborildi.")
         except Exception as e:
-            logging.error(f"❌ Admin {admin_id} ga xabar yuborishda xatolik: {e}")
-    
-    await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi. Tez orada obunangiz yoqiladi.")
+            logging.error(f"❌ Admin {admin_id} ga yuborishda xatolik: {e}")
+
+    if sent_to_admin:
+        await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi. Tez orada obunangiz yoqiladi.")
+        
+        # Agar rasm yuborgan odam va admin ID si bir xil bo'lsa (o'zingiz test qilayotgan bo'lsangiz):
+        if message.from_user.id in ADMIN_IDS:
+            await message.answer("ℹ️ Siz adminsiz: Chek xabari yuqorida interaktiv tugmalar bilan kelgan bo'lishi kerak.")
+    else:
+        await msg.edit_text("❌ Chekni adminga yuborishda xatolik yuz berdi. Render Log bo'limini tekshiring.")
 
 @router.callback_query(F.data.startswith("approve_"))
 async def approve_pay(call: CallbackQuery, bot: Bot):
