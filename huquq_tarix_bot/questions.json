@@ -1612,11 +1612,12 @@
   },
   {
     "subject": "Tarix",
-    "question": "1924-yilda O'rta Osiyoda amalga oshirilgan 'Milliy-hududiy chegaralanish' natijasida qaysi respublika tashkil topgan?",
-    "option_a": "Turkiston ASSR",
-    "option_b": "Buxoro XSR",
-    "option_c": "O'zbekiston Sovet Sotsialistik Respublikasi (O'zSSR)",
-    "option_d": "Zarafshon Muxtoriyoti",
-    "correct_option": "C"
-  },
+    "question": "Qadimgi Baqtriya davlatining asosiy hududlari qaysi hududlarni o'z ichiga olgan?",
+    "option_a": "Hozirgi Surxondaryo, Janubiy Tojikiston va Shimoliy Afg'oniston",
+    "option_b": "Farg'ona vodiysi va Toshkent vohasi",
+    "option_c": "Xorazm va Qoraqalpog'iston",
+    "option_d": "Eron va Iroq hududlari",
+    "correct_option": "A"
+  }
+]
   
