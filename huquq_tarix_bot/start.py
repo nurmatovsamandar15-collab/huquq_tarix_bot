@@ -1,19 +1,37 @@
+import os
+import json
 from aiogram import Router, F
 from aiogram.filters import CommandStart
 from aiogram.types import Message
-from db import get_or_create_user, get_active_subscription, get_user_stats
+from db import (
+    get_or_create_user, get_active_subscription, 
+    get_user_stats, count_questions, insert_question
+)
 from kb import main_menu_kb
-from config import PAYMENT_CARD, PAYMENT_CARD_OWNER, SUBSCRIPTION_PRICE
+from config import PAYMENT_CARD, PAYMENT_CARD_OWNER, SUBSCRIPTION_PRICE, QUESTIONS_JSON
 
 router = Router()
 
+async def check_and_load_questions():
+    """Baza bo'sh bo'lsa, questions.json faylidan savollarni yuklaydi"""
+    current_count = await count_questions()
+    if current_count == 0 and os.path.exists(QUESTIONS_JSON):
+        with open(QUESTIONS_JSON, "r", encoding="utf-8") as f:
+            questions = json.load(f)
+            for q in questions:
+                await insert_question(q)
+
 @router.message(CommandStart())
 async def cmd_start(message: Message):
+    # Foydalanuvchini bazaga qo'shish
     await get_or_create_user(
         user_id=message.from_user.id,
         username=message.from_user.username,
         full_name=message.from_user.full_name
     )
+    
+    # Baza bo'sh bo'lsa JSON fayldan savollarni yuklash
+    await check_and_load_questions()
     
     welcome_text = (
         f"Salom, {message.from_user.first_name}!\n\n"
