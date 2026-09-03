@@ -133,7 +133,7 @@ async def get_random_questions(subject: str, count: int = 30):
     async with aiosqlite.connect(DB_PATH) as db:
         db.row_factory = aiosqlite.Row
         async with db.execute(
-            "SELECT * FROM questions WHERE subject = ? ORDER OR RANDOM() LIMIT ?",
+            "SELECT * FROM questions WHERE subject = ? ORDER BY RANDOM() LIMIT ?",
             (subject, count)
         ) as cursor:
             rows = await cursor.fetchall()
