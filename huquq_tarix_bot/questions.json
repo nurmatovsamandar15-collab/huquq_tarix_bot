@@ -1,11 +1,1622 @@
 [
   {
-    "subject": "huquq",
-    "question": "O'zbekiston Respublikasi Konstitutsiyasi qachon qabul qilingan?",
-    "option_a": "1992-yil 8-dekabr",
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasining Amaldagi Konstitutsiyasi yangi tahrirda qachon qabul qilingan?",
+    "option_a": "2023-yil 30-aprel",
+    "option_b": "1992-yil 8-dekabr",
+    "option_c": "2022-yil 8-dekabr",
+    "option_d": "2021-yil 30-aprel",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida hokimiyatning birinchi manbai kim?",
+    "option_a": "Prezident",
+    "option_b": "Xalq",
+    "option_c": "Oliy Majlis",
+    "option_d": "Vazirlar Mahkamasi",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Inson huquqlari umumjahon deklaratsiyasi BMT Bosh Assambleyasi tomonidan qachon qabul qilingan?",
+    "option_a": "1945-yil 24-oktyabr",
+    "option_b": "1950-yil 10-dekabr",
+    "option_c": "1948-yil 10-dekabr",
+    "option_d": "1991-yil 1-sentyabr",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida qonun chiqaruvchi hokimiyatni qaysi organ amalga oshiradi?",
+    "option_a": "Vazirlar Mahkamasi",
+    "option_b": "Oliy Sud",
+    "option_c": "Prezident Administratsiyasi",
+    "option_d": "Oliy Majlis",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Oliy Majlisi qanday palatalardan iborat?",
+    "option_a": "Qonunchilik palatasi va Senat",
+    "option_b": "Xalq vakillari va Senat",
+    "option_c": "Davlat Kengashi va Senat",
+    "option_d": "Bosh Kengash va Qonunchilik palatasi",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida davlat hokimiyati qanday tamoyilga asoslanadi?",
+    "option_a": "Markazlashtirish tamoyiliga",
+    "option_b": "Hokimiyatlarning bo'linishi tamoyiliga",
+    "option_c": "Monarchik tamoyilga",
+    "option_d": "Mutlaq vakolat tamoyiliga",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqarolarning muomala layoqati to'liq qaysi yoshdan boshlab vujudga keladi?",
+    "option_a": "16 yoshdan",
+    "option_b": "21 yoshdan",
+    "option_c": "18 yoshdan",
+    "option_d": "14 yoshdan",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Davlat bayrog'i qachon qabul qilingan?",
+    "option_a": "1992-yil 2-iyul",
+    "option_b": "1992-yil 10-dekabr",
+    "option_c": "1991-yil 31-avgust",
+    "option_d": "1991-yil 18-noyabr",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Davlat gerbi qachon qabul qilingan?",
+    "option_a": "1992-yil 2-iyul",
+    "option_b": "1991-yil 18-noyabr",
+    "option_c": "1992-yil 10-dekabr",
+    "option_d": "1993-yil 8-dekabr",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Davlat madhiyasi qachon qabul qilingan?",
+    "option_a": "1991-yil 18-noyabr",
+    "option_b": "1992-yil 10-dekabr",
+    "option_c": "1992-yil 2-iyul",
+    "option_d": "1993-yil 8-dekabr",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekistonda sud hokimiyati qanday ish yuritadi?",
+    "option_a": "Adliya vazirligi nazorati ostida",
+    "option_b": "Oliy Majlis buyrug'i bilan",
+    "option_c": "Ijroiya va qonun chiqaruvchi hokimiyatdan mustaqil ravishda",
+    "option_d": "Prokuratura nazorati ostida",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Prezidenti necha yil muddatga saylanadi?",
+    "option_a": "5 yil",
+    "option_b": "4 yil",
+    "option_c": "6 yil",
+    "option_d": "7 yil",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Insonning huquq va erkinliklari nimaga ko'ra cheklanishi mumkin?",
+    "option_a": "Faqat qonunga muvofiq",
+    "option_b": "Hokim qarori bilan",
+    "option_c": "Militsiya xodimi talabi bilan",
+    "option_d": "Vazir buyrug'i bilan",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasining poytaxti qaysi shahar?",
+    "option_a": "Samarqand shahri",
+    "option_b": "Toshkent shahri",
+    "option_c": "Buxoro shahri",
+    "option_d": "Xiva shahri",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida davlat tili qaysi dil?",
+    "option_a": "O'zbek va rus tillari",
+    "option_b": "O'zbek va ingliz tillari",
+    "option_c": "O'zbek tili",
+    "option_d": "Qoraqalpoq tili",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Amir Temur qaysi yilda va qayerda tug'ilgan?",
+    "option_a": "1340-yil 9-mayda Samarqandda",
+    "option_b": "1330-yil 1-aprelda Buxoroda",
+    "option_c": "1338-yil 15-avgustda Toshkentda",
+    "option_d": "1336-yil 9-aprelda Kesh (Xo'ja Ilg'or)da",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Amir Temur saltanatining poytaxti qaysi shahar bo'lgan?",
+    "option_a": "Samarqand",
+    "option_b": "Buxoro",
+    "option_c": "Shahrisebz",
+    "option_d": "Toshkent",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buyuk Ipak yo'lining gullab-yashnashi qaysi davrlarga to'g'ri keladi?",
+    "option_a": "Faqat XIX asrga",
+    "option_b": "Qadimgi va o'rta asrlarga",
+    "option_c": "XX asr boshlariga",
+    "option_d": "Yangi davrga",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Mirzo Ulug'bek tomonidan Samarqandda qurilgan rasadxona qaysi asrga tegishli?",
+    "option_a": "XIV asr",
+    "option_b": "XVI asr",
+    "option_c": "XV asr",
+    "option_d": "XIII asr",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Avesto kitobi qaysi dinning muqaddas manbasi hisoblanadi?",
+    "option_a": "Buddaviylik",
+    "option_b": "Masihiylik",
+    "option_c": "Islom",
+    "option_d": "Zardashtiylik",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Jaloliddin Manguberdi qaysi sulola vakili edi?",
+    "option_a": "Anushteginiylar (Xorazmshohlar)",
+    "option_b": "Temuriylar",
+    "option_c": "Samanoidlar",
+    "option_d": "Qoraxoniylar",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Somoniylar davlatining asoschisi kim?",
+    "option_a": "Ahmad Farg'oniy",
+    "option_b": "Ismoil Somoniy",
+    "option_c": "Al-Xorazmiy",
+    "option_d": "Nasr II",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Respublikasining Mustaqillik elon qilingan sanasi qachon?",
+    "option_a": "1991-yil 1-sentyabr",
+    "option_b": "1992-yil 8-dekabr",
+    "option_c": "1991-yil 31-avgust",
+    "option_d": "1990-yil 20-iyun",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Al-Xorazmiy qaysi ilmiy markazda faoliyat yuritgan?",
+    "option_a": "Samarqand rasadxonasida",
+    "option_b": "G'azna saroyida",
+    "option_c": "Qohira akademiyasida",
+    "option_d": "Bog'doddagi Baytul-Hikmada",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Al-Farg'oniy fanning qaysi sohasida dunyoga mashhur bo'lgan?",
+    "option_a": "Astrronomiya va matematika",
+    "option_b": "Tibbiyot va kimyo",
+    "option_c": "Musiqa va adabiyot",
+    "option_d": "Huquq va falsafa",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Abu Ali ibn Sino qaysi shoh asari bilan G'arbda \"Avitsenna\" nomi bilan tanilgan?",
+    "option_a": "Zij",
+    "option_b": "Tib qonunlari (Al-Qanon fi at-Tibb)",
+    "option_c": "Avesto",
+    "option_d": "Boburnoma",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Zahiriddin Muhammad Bobur qaysi davlatga asos solgan?",
+    "option_a": "Xiva xonligiga",
+    "option_b": "Qo'qon xonligiga",
+    "option_c": "Hindistondagi Boburiylar (Buyuk Mo'g'ullar) davlatiga",
+    "option_d": "Buxoro amirligiga",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buxoro amirligi, Xiva va Qo'qon xonliklari qaysi asrda Rossiya imperiyasi tomonidan bosib olingan?",
+    "option_a": "XVIII asrda",
+    "option_b": "XX asr boshida",
+    "option_c": "XVII asrda",
+    "option_d": "XIX asrda",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qadimgi Baqtriya davlati qaysi hududlarda joylashgan edi?",
+    "option_a": "Surxondaryo, Shimoliy Afg'oniston va Janubiy Tojikiston",
+    "option_b": "Xorazm va Qoraqalpog'iston",
+    "option_c": "Farg'ona vodiysi",
+    "option_d": "Toshkent va Sirdaryo",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Spitamen kimlarga qarshi jasorat bilan kurash olib borgan?",
+    "option_a": "Eron ahmoniylariga",
+    "option_b": "Aleksandr Makedonskiy qo'shinlariga",
+    "option_c": "Mo'g'ullarga",
+    "option_d": "Arab istilochilariga",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Konstitutsiyasiga ko'ra, davlat organlari va mansabdor shaxslar kim oldida mas'uldirlar?",
+    "option_a": "Faqat sud organlari oldida",
+    "option_b": "Xalq va jamiyat oldida",
+    "option_c": "Faqat Prezident oldida",
+    "option_d": "Xalqaro tashkilotlar oldida",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekistonda Oliy Majlis Senati Raisini kim saylaydi?",
+    "option_a": "Xalq to'g'ridan-to'g'ri",
+    "option_b": "Prezident qarori bilan tayinlanadi",
+    "option_c": "Senat a'zolari orasidan Senat tomonidan",
+    "option_d": "Qonunchilik palatasi deputatlari",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasining Oliy Sudi raisini kim lavozimga tayinlaydi?",
+    "option_a": "Adliya vaziri",
+    "option_b": "Bosh prokuror",
+    "option_c": "Qonunchilik palatasi",
+    "option_d": "Prezident taqdimnomasiga ko'ra Senat",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Shaxsning aybsizlik prezumpsiyasi qaysi hujjat bilan kafolatlanadi?",
+    "option_a": "Konstitutsiya va Jinoyat-prosessual kodeksi",
+    "option_b": "Faqat Ichki ishlar nizamnomasi",
+    "option_c": "Mehnat kodeksi",
+    "option_d": "Fuqarolik kodeksi",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Bosh vazir nomzodi kim tomonidan ko'rib chiqish uchun taklif etiladi?",
+    "option_a": "Senat Raisi",
+    "option_b": "O'zbekiston Respublikasi Prezidenti",
+    "option_c": "Oliy Sud Raisi",
+    "option_d": "Markaziy Saylov Komissiyasi",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida ma'muriy javobgarlikka tortish qaysi yoshdan boshlanadi?",
+    "option_a": "14 yoshdan",
+    "option_b": "18 yoshdan",
+    "option_c": "16 yoshdan",
+    "option_d": "21 yoshdan",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Inson huquqlari bo'yicha Vakil (Ombudsman) qaysi organ tomonidan saylanadi?",
+    "option_a": "Oliy Sud",
+    "option_b": "Vazirlar Mahkamasi",
+    "option_c": "Adliya Vazirligi",
+    "option_d": "Oliy Majlis (Qonunchilik palatasi va Senat)",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekistonda mehnat qilish huquqi qaysi kodeks bilan tartibga solinadi?",
+    "option_a": "Mehnat kodeksi",
+    "option_b": "Fuqarolik kodeksi",
+    "option_c": "Oila kodeksi",
+    "option_d": "Soliq kodeksi",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Fuqarolik kodeksiga ko'ra, bitimlar qanday shakllarda tuziladi?",
+    "option_a": "Faqat og'zaki",
+    "option_b": "Og'zaki yoki yozma (oddiy yoki notarial)",
+    "option_c": "Faqat notarial tasdiqlangan",
+    "option_d": "Faqat elektron shaklda",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Konstitutsiyaga ko'ra, nikoh kimlarning ixtiyoriy roziligi va teng huquqliligiga asoslanadi?",
+    "option_a": "Faqat ota-onalarning",
+    "option_b": "Mahalla qo'mitasining",
+    "option_c": "Erkak va ayolning",
+    "option_d": "Davlat organlarining",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida jinoyat qonunchiligi bo'yicha javobgarlikning eng kam yoshi umumiy qoida bo'yicha necha yosh?",
+    "option_a": "18 yosh",
+    "option_b": "12 yosh",
+    "option_c": "14 yosh",
+    "option_d": "16 yosh",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekistonda mulkchilikning qanday shakllari mavjud?",
+    "option_a": "Xususiy va davlat mulki (barcha shakllar teng)",
+    "option_b": "Faqat davlat mulki",
+    "option_c": "Faqat xususiy mulk",
+    "option_d": "Jamoa va xalqaro mulk",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Saylov huquqiga ega bo'lgan O'zbekiston fuqarolari necha yoshdan saylovda qatnashishi mumkin?",
+    "option_a": "16 yoshdan",
+    "option_b": "18 yoshdan",
+    "option_c": "21 yoshdan",
+    "option_d": "25 yoshdan",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida qonunlar kim tomonidan imzolangach va e'lon qilingach kuchga kiradi?",
+    "option_a": "Bosh vazir",
+    "option_b": "Senat Raisi",
+    "option_c": "Prezident",
+    "option_d": "Adliya vaziri",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Sudda har kimga malakali yuridik yordam olish huquqi kafolatlanadi. Advokatura faoliyati qanday tamoyilga asoslanadi?",
+    "option_a": "Davlatga bo'ysinish",
+    "option_b": "Prokuraturaga bo'ysinish",
+    "option_c": "Sudga bo'ysinish",
+    "option_d": "Mustaqillik va o'zini o'zi boshqarish",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buyuk Ipak yo'li orqali Xitoydan G'arbga asosan nima olib ketilgan?",
+    "option_a": "Ipak, chinni va choy",
+    "option_b": "Oltin va kumush tangalar",
+    "option_c": "Mavjud bo'lmagan metallar",
+    "option_d": "Faqat ziravorlar",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Kushon imperiyasining eng qudratli hukmdori kim bo'lgan?",
+    "option_a": "Kudzula Kadfiz",
+    "option_b": "Kanishka I",
+    "option_c": "Vima Kadfiz",
+    "option_d": "Vasudeva",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Arab xifaligi davrida Movarounnahrda qaysi din keng tarqala boshladi?",
+    "option_a": "Zardashtiylik",
+    "option_b": "Buddaviylik",
+    "option_c": "Islom",
+    "option_d": "Masihiylik",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qoraxoniylar davlatida ta'lim va ma'rifat markazi bo'lgan eng mashhur shaharlardan biri qaysi edi?",
+    "option_a": "Xiva",
+    "option_b": "Qarshi",
+    "option_c": "Termiz",
+    "option_d": "Samarqand va Buxoro",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Chig'atoy ulusi mo'g'ul imperiyasining qaysi xoni davrida parchalanib ketdi?",
+    "option_a": "XIV asr o'rtalarida",
+    "option_b": "XII asrda",
+    "option_c": "XVI asrda",
+    "option_d": "XVIII asrda",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Amir Temur nechanchi yilda Movarounnahrning oliy hukmdori deb e'lon qilingan?",
+    "option_a": "1360-yil",
+    "option_b": "1370-yil",
+    "option_c": "1380-yil",
+    "option_d": "1390-yil",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Alisher Navoiy qaysi temuriy hukmdor davrida vazir va davlat arbobi bo'lib xizmat qilgan?",
+    "option_a": "Mirzo Ulug'bek",
+    "option_b": "Shohruh Mirzo",
+    "option_c": "Husayn Boyqaro",
+    "option_d": "Abu Said",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Xiva xonligida hukronlik qilgan oxirgi sulola qaysi edi?",
+    "option_a": "Shayboniylar",
+    "option_b": "Ashtarxoniylar",
+    "option_c": "Mang'itlar",
+    "option_d": "Qo'ng'irotlar",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buxoro amirligini boshqargan oxirgi amir kim edi?",
+    "option_a": "Amir Olimxon",
+    "option_b": "Amir Nasrullo",
+    "option_c": "Amir Muzaffar",
+    "option_d": "Amir Shohmurod",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Jadidchilik harakatining O'zbekistondagi yirik vakillaridan biri va 'O'tkan kunlar' romani muallifi kim?",
+    "option_a": "Mahmudxo'ja Behbudiy",
+    "option_b": "Abdulla Qodiriy",
+    "option_c": "Abdulhamid Cho'lpon",
+    "option_d": "Abdurauf Fitrat",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekistonda ilk alifbo islohoti qachon amalga oshirilib, lotin alifbosiga o'tilgan edi (birinchi marta)?",
+    "option_a": "1940-yil",
+    "option_b": "1950-yil",
+    "option_c": "1929-yil",
+    "option_d": "1989-yil",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Respublikasi Milliy valyutasi — So'm qachon muomalaga kiritilgan?",
+    "option_a": "1991-yil 1-sentyabr",
+    "option_b": "1992-yil 8-dekabr",
+    "option_c": "1993-yil 15-noyabr",
+    "option_d": "1994-yil 1-iyul",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Birlashgan Millatlar Tashkilotiga (BMT) qachon a'zo bo'lib kirdi?",
+    "option_a": "1992-yil 2-mart",
     "option_b": "1991-yil 31-avgust",
     "option_c": "1993-yil 10-dekabr",
+    "option_d": "1995-yil 1-sentyabr",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qadimgi Farg'ona davlati Xitoy manbalarida qanday nomlangan?",
+    "option_a": "Sog'd",
+    "option_b": "Davan (Dayuan)",
+    "option_c": "Kushon",
+    "option_d": "Kanguy",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Mahmud Qoshg'ariy tomonidan yozilgan mashhur turkiy til qomusi qanday nomlanadi?",
+    "option_a": "Qutadg'u bilig",
+    "option_b": "Hibat ul-haqoyiq",
+    "option_c": "Divanu lug'at it-turk",
+    "option_d": "Muhokamat ul-lug'atayn",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Konstitutsiyasiga ko'ra, inson va fuqaroning huquq hamda erkinliklarini ta'minlash kimning asosiy burchidir?",
+    "option_a": "Siyosiy partiyalarning",
+    "option_b": "Nodavlat tashkilotlarning",
+    "option_c": "Faqat sudlarning",
+    "option_d": "Davlatning",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqarolik huquqida shaxsiy nomulkiy huquqlarga qaysilar kiradi?",
+    "option_a": "Sha'n, qadr-qimmat va ishchanlik obro'si",
+    "option_b": "Mulk huquqi",
+    "option_c": "Meros olish huquqi",
+    "option_d": "Ijara huquqi",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekistonda Oliy Majlis Qonunchilik palatasi deputatligiga nomzod ko'rsatish huquqiga kimlar ega?",
+    "option_a": "Faqat kasaba uyushmalari",
+    "option_b": "Siyosiy partiyalar",
+    "option_c": "Har bir fuqaro mustaqil ravishda",
+    "option_d": "Mahalla qo'mitalari",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Jinoyat huquqida jazoning asosiy maqsadlaridan biri nima?",
+    "option_a": "Aybdorga jismoniy azob berish",
+    "option_b": "Inson qadr-qimmatini kamsitish",
+    "option_c": "Mahkumni ahloqan tuzatish va yangi jinoyatlarning oldini olish",
+    "option_d": "Faqat jamiyatdan ajratib qo'yish",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Oila kodeksiga ko me'yoriy nikoh yoshi necha yosh etib belgilangan?",
+    "option_a": "Ayollar uchun 16, erkaklar uchun 18 yosh",
+    "option_b": "Ikkala jins vakillari uchun ham 16 yosh",
+    "option_c": "Ikkala jins vakillari uchun ham 20 yosh",
+    "option_d": "Erkaklar va ayollar uchun 18 yosh",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Mehnat shartnomasi xodimning tashabbusi bilan bekor qilinganda xodim ish beruvchini necha kun oldin yozma ravishda ogohlantirishi kerak?",
+    "option_a": "2 hafta (14 kun) ilgari",
+    "option_b": "1 oy ilgari",
+    "option_c": "3 kun ilgari",
+    "option_d": "10 kun ilgari",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Ma'muriy javobgarlik to'g'risidagi kodeksga ko'ra ma'muriy qamoq muddati ko'pi bilan necha sutkani tashkil etadi?",
+    "option_a": "30 sutka",
+    "option_b": "15 sutka (favqulodda holatlarda 30 sutka)",
+    "option_c": "10 sutka",
+    "option_d": "60 sutka",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Vazirlar Mahkamasiga kim rahbarlik qiladi?",
+    "option_a": "Oliy Majlis Raisi",
+    "option_b": "Prezident Administratsiyasi rahbari",
+    "option_c": "O'zbekiston Respublikasi Bosh vaziri",
+    "option_d": "Moliya vaziri",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Normativ-huquqiy hujjatlar iyerarxiyasida eng yuqori yuridik kuchga ega hujjat qaysi?",
+    "option_a": "Prezident farmoni",
+    "option_b": "Vazirlar Mahkamasi qarori",
+    "option_c": "Kodekslar",
+    "option_d": "O'zbekiston Respublikasi Konstitutsiyasi",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasining Saylov kodeksiga muvofiq, Qonunchilik palatasi deputatlari necha kishi iborat?",
+    "option_a": "150 nafar",
+    "option_b": "100 nafar",
+    "option_c": "120 nafar",
+    "option_d": "200 nafar",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqarolarning konstitutsiyaviy burchlaridan biri bo'lgan soliqlar va yig'imlarni to'lash haqidagi norma Konstitutsiyada belgilanganmi?",
+    "option_a": "Yo'q, faqat Soliq kodeksida bor",
+    "option_b": "Ha, har bir fuqaro qonun bilan belgilangan soliq va yig'imlarni to'lashi shart",
+    "option_c": "Faqat tadbirkorlar uchun belgilangan",
+    "option_d": "Faqat davlat xizmatchilari uchun belgilangan",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida odil sudlovni faqat qaysi organ amalga oshiradi?",
+    "option_a": "Prokuratura organlari",
+    "option_b": "Adliya vazirligi",
+    "option_c": "Faqat sud",
+    "option_d": "Ichki ishlar organlari",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Meros qoldiruvchining vasiyatnomasi bo'lmaganda meros bo'yicha vorislik qanday amalga oshiriladi?",
+    "option_a": "Davlat foydasiga musodara qilinadi",
+    "option_b": "Mahalla qarori bilan bo'linadi",
+    "option_c": "Faqat to'ng'ich farzandga beriladi",
+    "option_d": "Qonun bo'yicha vorislik navbati asosida",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Qaysi organ O'zbekiston Respublikasi Konstitutsiyasiga muvofiqligini aniqlash bo'yicha ishlarni ko'radi?",
+    "option_a": "Konstitutsiyaviy sud",
+    "option_b": "Oliy sud",
+    "option_c": "Oliy Hakamlik sudi",
+    "option_d": "Adliya vazirligi",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Shaxsiy daxlsizlik huquqiga ko'ra, tintuv o'tkazishga qanday holda yo'l qo'yiladi?",
+    "option_a": "Militsiya xodimining og'zaki talabi bilan",
+    "option_b": "Faqat qonunda belgilangan tartibda va asoslarda (sud qarori bilan)",
+    "option_c": "Ko'cha oqsoqoli guvohligida",
+    "option_d": "Har qanday shubhali holatda darhol",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Samarqanddagi Registon maydonidagi birinchi barpo etilgan madrasa qaysi?",
+    "option_a": "Sherdor madrasasi",
+    "option_b": "Tillakori madrasasi",
+    "option_c": "Ulug'bek madrasasi",
+    "option_d": "Kukeldosh madrasasi",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Shayboniylar davlatining eng mashhur hukmdorlaridan biri, Movarounnahrni birlashtirgan xon kim?",
+    "option_a": "Ubaydullaxon",
+    "option_b": "Kuchkunchixon",
+    "option_c": "Baroqxon",
+    "option_d": "Abdullaxon II",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buxoro xonligida Ashtarxoniylar (Joniylar) sulolasi qaysi asrda hukmronlik qilgan?",
+    "option_a": "XVII asr va XVIII asr birinchi yarmi",
+    "option_b": "XIV asr",
+    "option_c": "XII asr",
+    "option_d": "XIX asr oxiri",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Ahmad al-Farg'oniy Yevropada qanday nom bilan tanilgan?",
+    "option_a": "Avitsenna",
+    "option_b": "Alfraganus",
+    "option_c": "Alpharabius",
+    "option_d": "Rhazes",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Abu Rayhon Beruniy qaysi mashhur asarida Hindiston tarixi, madaniyati va ilmini atroflicha tasvirlagan?",
+    "option_a": "Osorul-boqiya",
+    "option_b": "Qanoni Ma'sudiy",
+    "option_c": "Tahqiq ma lil-Hind ('Hindiston')",
+    "option_d": "Kitob al-Jamohir",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Mo'g'ullarga qarshi kurashgan Xorazmshohlar davlatining so'nggi hukmdori va milliy qahramon kim?",
+    "option_a": "Alovuddin Muhammad",
+    "option_b": "Ahmad Sanjar",
+    "option_c": "Otsiz",
+    "option_d": "Jaloliddin Manguberdi",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qadimgi Sug'diyonaning asosiy poytaxt va madaniy markazlaridan biri qaysi shahar bo'lgan?",
+    "option_a": "Marakanda (Samarqand)",
+    "option_b": "Kath (Xiva)",
+    "option_c": "Chach (Toshkent)",
+    "option_d": "Merv",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekistonda Temuriylar tarixi davlati muzeyi qaysi shaharda joylashgan?",
+    "option_a": "Samarqandda",
+    "option_b": "Toshkentda",
+    "option_c": "Shahrisebzda",
+    "option_d": "Buxoroda",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qoraqalpog'iston Respublikasi hududida joylashgan qadimgi qal'alardan biri qaysi?",
+    "option_a": "Kampirtepa",
+    "option_b": "Varahsha",
+    "option_c": "Toproqqal'a va Ayazqal'a",
+    "option_d": "Afrosiyob",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Milliy Universiteti (dastlabki Turkiston Davlat Universiteti) qaysi yilda tashkil etilgan?",
+    "option_a": "1930-yil",
+    "option_b": "1941-yil",
+    "option_c": "1925-yil",
+    "option_d": "1918-yil",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Xiva xonligidagi Ichan-Qal'a me'moriy majmuasi YUNESKO Umumjahon merosi ro'yxatiga qachon kiritilgan?",
+    "option_a": "1990-yil",
+    "option_b": "2000-yil",
+    "option_c": "1985-yil",
+    "option_d": "2005-yil",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Imom al-Buxoriyning eng mashhur va ishonchli hadislar to'plami asari qanday nomlanadi?",
+    "option_a": "Al-Adab al-Mufrad",
+    "option_b": "Al-Jome' as-Sahih",
+    "option_c": "At-Tarix al-Kabir",
+    "option_d": "Sunan at-Tirmiziy",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qaysi o'zbek shoiri va mutafakkiri 'Xamsa' asarini turkiy tilda birinchi bo'lib yaratgan?",
+    "option_a": "Lutfiy",
+    "option_b": "Atoyi",
+    "option_c": "Alisher Navoiy",
+    "option_d": "Zahiriddin Muhammad Bobur",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Samanoidlar davrida yashab ijod etgan mashhur va buyuk ensiklopedik olim kim?",
+    "option_a": "Al-Xorazmiy",
+    "option_b": "Zamaxshariy",
+    "option_c": "Nizomulmulk",
+    "option_d": "Abu Ali ibn Sino va Abu Rayhon Beruniy",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qadimgi Kanguy (Kangga) davlati asosan qaysi daryo havzasida joylashgan edi?",
+    "option_a": "Sirdaryo (Yaksart) havzasida",
+    "option_b": "Amudaryo havzasida",
+    "option_c": "Zarafshon vohasida",
+    "option_d": "Murghob vohasida",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Konstitutsiyasiga ko'ra, davlat organlari va mansabdor shaxslar kimning oldida mas'uldirlar?",
+    "option_a": "Faqat sud organlari",
+    "option_b": "Xalqaro tashkilotlar",
+    "option_c": "Jamiyat va fuqarolar (Xalq)",
+    "option_d": "Siyosiy partiyalar",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Amir Temur qaysi shahar yaqinida bo'lib o'tgan jangda Toxtamyshxonni uzil-kesil mag'lubiyatga uchratgan?",
+    "option_a": "Kondurcha daryosi bo'yida",
+    "option_b": "Anqara yaqinida",
+    "option_c": "Terek daryosi bo'yida",
+    "option_d": "Mudofaa qal'asida",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasining Fuqarolik kodeksiga muvofiq, muomala layoqati to'liq qaysi yoshdan boshlanadi?",
+    "option_a": "16 yoshdan",
+    "option_b": "21 yoshdan",
+    "option_c": "14 yoshdan",
+    "option_d": "18 yoshdan (voyaga yetgach)",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buyuk Ipak yo'lining gullab-yashnagan davri qaysi davlatlar hukmronligi davriga to'g'ri keladi?",
+    "option_a": "Kushon va Rim imperiyalari davriga",
+    "option_b": "Xitoyning Min sulolasi davriga",
+    "option_c": "G'aznaviylar davriga",
+    "option_d": "Saljuqiylar davriga",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Xodimga yillik asosiy mehnat ta'tili kamida necha ish kuni qilib belgilangan?",
+    "option_a": "15 ish kuni",
+    "option_b": "21 ish kuni",
+    "option_c": "30 ish kuni",
+    "option_d": "10 ish kuni",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "1917-yilda Qo'qon shahrida tuzilgan va tez orada tormor etilgan milliy davlat qanday nomlangan?",
+    "option_a": "Buxoro Xalq Respublikasi",
+    "option_b": "Xiva Xalq Respublikasi",
+    "option_c": "Turkiston Muxtoriyati",
+    "option_d": "Farg'ona Amirligi",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Jinoyat sodir etishda ayblanayotgan shaxsning aybi isbotlanmagunicha u kim hisoblanadi?",
+    "option_a": "Mahkum",
+    "option_b": "Jinoyatchi",
+    "option_c": "Xavfli retsidivist",
+    "option_d": "Aybsiz",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Respublikasi Davlat bayrog'i qachon qabul qilingan?",
+    "option_a": "1991-yil 18-noyabr",
+    "option_b": "1992-yil 2-iyul",
+    "option_c": "1992-yil 10-dekabr",
+    "option_d": "1991-yil 31-avgust",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Oliy Majlisining Senati qanday organ hisoblanadi?",
+    "option_a": "Ijro etuvchi hokimiyat organi",
+    "option_b": "Yuqori palata (vakillik va qonun chiqaruvchi)",
+    "option_c": "Sud hokimiyati organi",
+    "option_d": "Nazorat organi",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Movarounnahrda IX-X asrlarda hukmronlik qilgan va poytaxti Buxoro bo'lgan sulola qaysi?",
+    "option_a": "Tohiriylar",
+    "option_b": "Safforiylar",
+    "option_c": "Somoniylar",
+    "option_d": "G'aznaviylar",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Inson huquqlari umumjahon deklaratsiyasi BMT Bosh Assambleyasi tomonidan qaysi yilda qabul qilingan?",
+    "option_a": "1945-yil",
+    "option_b": "1950-yil",
+    "option_c": "1991-yil",
+    "option_d": "1948-yil 10-dekabr",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qadimgi Baqtriya davlatining asosiy hududlari qaysi hududlarni o'z ichiga olgan?",
+    "option_a": "Hozirgi Surxondaryo, Janubiy Tojikiston va Shimoliy Afg'oniston",
+    "option_b": "Farg'ona vodiysi va Toshkent vohasi",
+    "option_c": "Xorazm va Qoraqalpog'iston",
+    "option_d": "Eron va Iroq hududlari",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Muomala layoqati cheklangan fuqarolarga qanday shaxslar tayinlanadi?",
+    "option_a": "Vasiy",
+    "option_b": "Homiylik (Homiylar)",
+    "option_c": "Advokat",
+    "option_d": "Notarius",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Mirzo Ulug'bek tomonidan Samarqandda barpo etilgan rasadxona qaysi asrda qurilgan?",
+    "option_a": "XIII asr",
+    "option_b": "XVI asr",
+    "option_c": "XV asr (1424–1429 yillar)",
+    "option_d": "XVII asr",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Ma'muriy huquqbuzarlik to'g'risidagi bayonnoma kim tomonidan tuziladi?",
+    "option_a": "Faqat sudya tomonidan",
+    "option_b": "Faqat advokat tomonidan",
+    "option_c": "Jabrlanuvchi tomonidan",
+    "option_d": "Vakolatli davlat organi mansabdor shaxsi tomonidan",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qo'qon xonligida hukmronlik qilgan mashhur shoira va ma'rifatparvar kim edi?",
+    "option_a": "Nodirabegim (Mohlaroyim)",
+    "option_b": "Uvaysiy",
+    "option_c": "Anbar Otin",
+    "option_d": "Zebunniso",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Mukammal huquqiy tartib va qonun ustuvorligi hukm suradigan davlat qanday nomlanadi?",
+    "option_a": "Monarxiya davlati",
+    "option_b": "Huquqiy davlat",
+    "option_c": "Unitar davlat",
+    "option_d": "Oligarxiya",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Zahiriddin Muhammad Bobur qaysi yilda va qayerda tavallud topgan?",
+    "option_a": "1483-yil Samarqandda",
+    "option_b": "1483-yil Toshkentda",
+    "option_c": "1483-yil Andijonda",
+    "option_d": "1500-yil Kobulda",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekistonda tadbirkorlik faoliyati bilan shug'ullanish huquqi kimlarga berilgan?",
+    "option_a": "Faqat davlat korxonalariga",
+    "option_b": "Faqat xorijiy fuqarolarga",
+    "option_c": "Faqat oliy ma'lumotli shaxslarga",
+    "option_d": "Qonun bilan taqiqlanmagan barcha jismoniy va yuridik shaxslarga",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Respublikasi Konstitutsiyasi birinchi marta qachon qabul qilingan?",
+    "option_a": "1992-yil 8-dekabr",
+    "option_b": "1991-yil 31-avgust",
+    "option_c": "1993-yil 15-dekabr",
     "option_d": "1990-yil 20-iyun",
     "correct_option": "A"
-  }
-]
+  },
+  {
+    "subject": "Huquq",
+    "question": "Soliq kodeksiga ko'ra, jismoniy shaxslardan olinadigan daromad solig'i stavkasi qanday xarakterga ega?",
+    "option_a": "Progresiv",
+    "option_b": "Proportsional (qat'iy qilib belgilangan foiz)",
+    "option_c": "Regressiv",
+    "option_d": "O'zgaruvchan har oy",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'rta asrlarda Tibbiyot ilmining otasi deb tan olingan va 'Tibb qonunlari' asarini yozgan olim kim?",
+    "option_a": "Abu Rayhon Beruniy",
+    "option_b": "Al-Xorazmiy",
+    "option_c": "Abu Ali ibn Sino",
+    "option_d": "Ar-Roziy",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Noma'lum yo'nalishda yo'qolgan fuqaroni sud qancha muddatdan keyin 'vafot etgan' deb e'lon qilishi mumkin?",
+    "option_a": "1 yil",
+    "option_b": "2 yil",
+    "option_c": "3 yil",
+    "option_d": "5 yil mobaynida ma'lumot bo'lmasa",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "IX asrda Bag'doddagi 'Bayt ul-Hikma' (Donishmandlik uyi) ilmiy markaziga rahbarlik qilgan vatandoshimiz kim?",
+    "option_a": "Muhammad al-Xorazmiy",
+    "option_b": "Ahmad al-Farg'oniy",
+    "option_c": "Abu Nasr Farobiy",
+    "option_d": "Imom al-Buxoriy",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Shaxsning o'z huquq va majburiyatlarini o'z harakatlari bilan egallash hamda amalga oshirish qobiliyati nima deyiladi?",
+    "option_a": "Huquq layoqati",
+    "option_b": "Muomala layoqati",
+    "option_c": "Mulkdorlik huquqi",
+    "option_d": "Litsenziya",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Rossiya imperiyasi tomonidan Buxoro amirligi qaysi yilda bo'ysundirilgan va protectoratga aylantirilgan?",
+    "option_a": "1865-yil",
+    "option_b": "1873-yil",
+    "option_c": "1868-yil (Zirabuloq jangidan so'ng)",
+    "option_d": "1895-yil",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Sud majlisida ayblovni davlat nomidan kim quvvatlaydi?",
+    "option_a": "Advokat",
+    "option_b": "Sudya",
+    "option_c": "Aybdorning qarindoshi",
+    "option_d": "Prokuror",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Respublikasi Davlat gerbi qachon qabul qilingan?",
+    "option_a": "1992-yil 2-iyul",
+    "option_b": "1991-yil 18-noyabr",
+    "option_c": "1992-yil 8-dekabr",
+    "option_d": "1993-yil 10-dekabr",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Jinoyat kodeksiga ko'ra jazo turlaridan biri bo'lgan 'Jarima' nimada ifodalanadi?",
+    "option_a": "Majburiy mehnatda",
+    "option_b": "Davlat daromadiga undiriladigan pul undiruvida",
+    "option_c": "Ozodlikdan mahrum qilishda",
+    "option_d": "Xizmat bo'yicha cheklashda",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "XVI asrda Boburiylar saltanatiga asos solgan buyuk shaxs va sarkarda kim?",
+    "option_a": "Humoyun",
+    "option_b": "Akbarshoh",
+    "option_c": "Zahiriddin Muhammad Bobur",
+    "option_d": "Shoh Jahon",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Konstitutsiyasiga muvofiq, O'zbekiston Respublikasining hududi va chegaralari qanday xarakterga ega?",
+    "option_a": "O'zgaruvchan",
+    "option_b": "Xalqaro kelishuvga ko'ra shartli",
+    "option_c": "Daxlsiz va bo'linmasdir",
+    "option_d": "Mahalliy kengashlar tomonidan belgilab beriladi",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Amir Temur qaysi yilda va qayerda buyuk saltanat taxtiga o'tirgan hamda o'zini amir deb e'lon qilgan?",
+    "option_a": "1370-yil Balx qurultoyida",
+    "option_b": "1365-yil Loy jangidan so'ng",
+    "option_c": "1380-yil Samarqandda",
+    "option_d": "1395-yil Keshda",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqarolik huquqida mulk huquqi o'z ichiga qanday uchta asosiy vakolatni oladi?",
+    "option_a": "Faqat saqlash va sotish",
+    "option_b": "Egalik qilish, foydalanish va tasarruf etish",
+    "option_c": "Ijara, garov va sovg'a qilish",
+    "option_d": "Meros berish va xususiylashtirish",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buyuk alloma Mahmud az-Zamaxshariy qaysi sohadagi fundamental asarlari bilan dunyoga tanilgan?",
+    "option_a": "Astronomiya va matematika",
+    "option_b": "Tibbiyot va kimyo",
+    "option_c": "Tilshunoslik, tafsir va arab tili grammatikasi",
+    "option_d": "Harbiy san'at va geometriya",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Jinoyat kodeksiga ko'ra, jinoiy javobgarlikka tortishning umumiy yoshi necha yosh etib belgilangan?",
+    "option_a": "18 yosh",
+    "option_b": "14 yosh",
+    "option_c": "21 yosh",
+    "option_d": "16 yosh",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qadimgi Xorazm davlatining eng ko'hna yozma yodgorliklari va madaniy qatlamlari qaysi obidadan topilgan?",
+    "option_a": "Janque'la va Qo'yqirilganqal'a",
+    "option_b": "Mizdaxqon",
+    "option_c": "Varahsha",
+    "option_d": "Afrosiyob",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasida Oliy Majlis Senati Raisini kim saylaydi?",
+    "option_a": "Prezident qarori bilan tayinlanadi",
+    "option_b": "Oliy Majlis Senati a'zolari orasidan Senat tomonidan saylanadi",
+    "option_c": "Qonunchilik palatasi deputatlari saylaydi",
+    "option_d": "Xalq tomonidan to'g'ridan-to'g'ri saylanadi",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'rta osiyolik qaysi olim algoritm tushunchasiga va algebra faniga asos solgan?",
+    "option_a": "Abu Rayhon Beruniy",
+    "option_b": "Ahmad al-Farg'oniy",
+    "option_c": "Muhammad ibn Muso al-Xorazmiy",
+    "option_d": "Ibn Sino",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Oila kodeksiga muvofiq, ota-onalik huquqidan mahrum qilish faqat qanday tartibda amalga oshiriladi?",
+    "option_a": "Mahalla fuqarolar yig'ini qarori bilan",
+    "option_b": "Vasiylik va homiylik organi xulosasi bilan",
+    "option_c": "ICHB (Inson huquqlari) qarori bilan",
+    "option_d": "Faqat sud tartibida",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Xiva xonligini 1920-yilda ag'darish natijasida qanday respublika tuzilgan edi?",
+    "option_a": "Xorazm Xalq Sho'ro Respublikasi",
+    "option_b": "Buxoro Xalq Respublikasi",
+    "option_c": "Turkiston Avtonom Respublikasi",
+    "option_d": "O'zbekiston SSR",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Mehnat kodeksiga ko'ra, xodimni sinov muddati bilan ishga qabul qilishda maksimal sinov muddati necha oydan oshmasligi kerak?",
+    "option_a": "1 oy",
+    "option_b": "3 oy (alohida toifalar uchun 6 oy)",
+    "option_c": "2 oy",
+    "option_d": "6 oy hamda cheksiz",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buxoro amirligida 1920-yil sentabr oyida amirlik tuzumini kim ag'dargan edi?",
+    "option_a": "Qo'qon xonligi qo'shinlari",
+    "option_b": "Ingliz harbiy kuchlari",
+    "option_c": "M.Frunze boshchiligidagi Qizil armiya va yosh buxoroliklar",
+    "option_d": "Ahmadshoh Massud kuchlari",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Konstitutsiyasiga ko'ra, har bir shaxs o'z shaxsiyatini erkin rivojlantirish huquqiga ega. Bu qanday huquq turiga kiradi?",
+    "option_a": "Iqtisodiy huquqlar",
+    "option_b": "Siyosiy huquqlar",
+    "option_c": "Ekologik huquqlar",
+    "option_d": "Shaxsiy (fuqarolik) huquq va erkinliklar",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Respublikasi BMT (Birlashgan Millatlar Tashkiloti)ga qaysi yilda a'zo bo'lib kirgan?",
+    "option_a": "1992-yil 2-mart",
+    "option_b": "1991-yil 1-sentabr",
+    "option_c": "1993-yil 10-dekabr",
+    "option_d": "1995-yil 5-may",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Jinoyat prozessida shubhalanuvchi yoki ayblanuvchiga birinchi so'roq berilishidan oldin nimani ta'minlash shart?",
+    "option_a": "Qarindoshlari bilan uchrashuvni",
+    "option_b": "Advokat (himoyachi) bilan xoli uchrashish imkoniyatini",
+    "option_c": "Tibbiy ko'rikni",
+    "option_d": "Kafolat summasi to'lanishini",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Somoniylar davlatida qaysi shahar Sharqning yirik madaniy, ilmiy va ma'rifiy markaziga aylangan edi?",
+    "option_a": "Samarqand",
+    "option_b": "G'azna",
+    "option_c": "Buxoro",
+    "option_d": "Nishapur",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Madaniyat va sport vazirligi hamda Adliya vazirligi hujjatlari iyerarxiyada qanday hujjatlar hisoblanadi?",
+    "option_a": "Konstitutsiyaviy qonunlar",
+    "option_b": "Vazirlar Mahkamasi qarorlari",
+    "option_c": "Prezident farmonlari",
+    "option_d": "Idoraviy normativ-huquqiy hujjatlar",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "XIX asr oxiri – XX asr boshlarida Turkistonda ma'rifatparvarlik va islohotchilik harakati vakillari qanday nomlangan?",
+    "option_a": "Jadidlar",
+    "option_b": "Qadimchilar",
+    "option_c": "Sufiylar",
+    "option_d": "Mo'g'ulparastlar",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasining Amaldagi Konstitutsiyasiga muvofiq, O'zbekistonda qanday mafkura hamda siyosiy qarashlar ustun bo'lishiga yo'l qo'yiladi?",
+    "option_a": "Davlat mafkurasi yagona hisoblanadi",
+    "option_b": "Hech bir mafkura davlat yoki majburiy mafkura sifatida o'rnatilishi mumkin emas",
+    "option_c": "Diniy mafkura ustun qo'yiladi",
+    "option_d": "Sotsialistik mafkura majburiydir",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston Respublikasining Davlat madhiyasi qachon va qaysi qonun bilan qabul qilingan?",
+    "option_a": "1991-yil 31-avgust",
+    "option_b": "1992-yil 2-iyul",
+    "option_c": "1992-yil 10-dekabr",
+    "option_d": "1993-yil 8-dekabr",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Yuridik shaxsning huquq layoqati va muomala layoqati bir vaqtda qachon paydo bo'ladi?",
+    "option_a": "Ta'sischilar yig'ilishi o'tkazilganda",
+    "option_b": "Ustav tasdiqlanganda",
+    "option_c": "Direktor tayinlanganda",
+    "option_d": "Davlat ro'yxatidan o'tkazilgan paytdan e'tiboran",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Jaloliddin Manguberdi mo'g'ullarga qarshi qaysi mashhur jangda birinchi yirik g'alabaga erishgan?",
+    "option_a": "Pervon jangida",
+    "option_b": "Indus (Sind) daryosi bo'yidagi jangda",
+    "option_c": "Xo'jand mudofaasida",
+    "option_d": "Buxoro qamalida",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Ma'muriy javobgarlik bo'yicha jazo choralari qaysi organda yoki shaxs tomonidan qo'llanilishi mumkin?",
+    "option_a": "Faqat mahalliy hokimlar tomonidan",
+    "option_b": "Sudlar hamda tegishli vakolatli davlat organlari (huquqni muhofaza qiluvchi)",
+    "option_c": "Faqat jamoat tashkilotlari",
+    "option_d": "Siyosiy partiya rahbarlari",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "1365-yilda Amir Temur va Sohibqiron Sohib Huseyn mo'g'ul xoni Ilyosxo'jaga qarshi qaysi mashhur jangda qatnashganlar?",
+    "option_a": "Kondurcha jangi",
+    "option_b": "Anqara jangi",
+    "option_c": "Loy jangi (Jangi loy)",
+    "option_d": "Terek jangi",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Soliqlar, yig'imlar va boshqa majburiy to'lovlarning turlari qaysi hujjat bilan belgilanadi?",
+    "option_a": "Vazirliklar buyrug'i bilan",
+    "option_b": "Hokimlar qarorlari bilan",
+    "option_c": "Sud ajrimi bilan",
+    "option_d": "Faqat Qonun (Soliq kodeksi) bilan",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Toshkentda qurilgan mashhur 'Kukeldosh' madrasasi qaysi asrda va kim tomonidan barpo etilgan?",
+    "option_a": "XVI asrda Dervishxon (Kukeldosh) tomonidan",
+    "option_b": "XIV asrda Amir Temur tomonidan",
+    "option_c": "XV asrda Ulug'bek tomonidan",
+    "option_d": "XVIII asrda Yunusxo'ja tomonidan",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Konstitutsiyaga muvofiq, O'zbekiston Respublikasi Prezidenti lavozimiga necha yoshdan kichik bo'lmagan fuqaro saylanishi mumkin?",
+    "option_a": "25 yoshdan",
+    "option_b": "35 yoshdan",
+    "option_c": "30 yoshdan",
+    "option_d": "40 yoshdan",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekistonda mustaqillik deklaratsiyasi Oliy Kengash tomonidan qachon qabul qilingan?",
+    "option_a": "1991-yil 31-avgust",
+    "option_b": "1992-yil 8-dekabr",
+    "option_c": "1990-yil 20-iyun",
+    "option_d": "1989-yil 21-oktyabr",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqaroning vafot etganligi haqidagi faktni qaysi organ rasman tasdiqlaydi va qayd etadi?",
+    "option_a": "Ichki ishlar bo'limi",
+    "option_b": "Tibbiyot muassasasi",
+    "option_c": "Notarial idora",
+    "option_d": "FXDYo (FHDYo - Yo'sindagi Fuqarolik holati dalolatnomalarini yozish) organi",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "G'aznaviylar davlatining eng qudratli hukmdori bo'lgan va Hindistonga 17 marta harbiy yurish qilgan shaxs kim?",
+    "option_a": "Sulton Mahmud G'aznaviy",
+    "option_b": "Sebuktegin",
+    "option_c": "Mas'ud G'aznaviy",
+    "option_d": "Ibrohim G'aznaviy",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Fuqarolik kodeksiga muvofiq, bitimni haqiqiy emas deb topish haqidagi da'vo muddati (nidoli bitimlar bo'yicha) necha yilni tashkil etadi?",
+    "option_a": "3 yil",
+    "option_b": "5 yil",
+    "option_c": "1 yil",
+    "option_d": "10 yil",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "1868-yilgi Rossiya-Buxoro shartnomasiga ko'ra Buxoro amirligi qaysi hududlardan rasman voz kechgan va imperiya tarkibiga topshirgan?",
+    "option_a": "Samarqand, Kattaqo'rg'on va Zarafshon okrugi",
+    "option_b": "Xo'jand va Toshkent",
+    "option_c": "Farg'ona vodiysi va Osh",
+    "option_d": "Qarshi va Shahrisabz",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Mehnat kodeksiga muvofiq, xodimning tashabbusi bilan mehnat shartnomasini bekor qilishda ogohlantirish muddati davomida xodim o'z arizasini qaytarib olish huquqiga egami?",
+    "option_a": "Yo'q, ariza berilgach uni bekor qilib bo'lmaydi",
+    "option_b": "Ha, ogohlantirish muddati tugagunga qadar istalgan vaqtda qaytarib olishga haqli",
+    "option_c": "Faqat kasaba uyushmasi roziligi bilan qaytarib oladi",
+    "option_d": "Faqat ish beruvchining yozma roziligi bo'lsa qaytarishi mumkin",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Amir Temur imperiyasida devonbegi hamda oliy moliya ishlarini boshqargan 'Moliya devoni' (Devoni bozorg)ga kim rahbarlik qilgan?",
+    "option_a": "Sadr",
+    "option_b": "Qaziaskor",
+    "option_c": "Devonbegi (Vazir)",
+    "option_d": "Tavachi",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Jinoyat huquqida aybning shakllari qaysi javobda to'g'ri va to'liq ko'rsatilgan?",
+    "option_a": "Akkumulyativ va xususiy",
+    "option_b": "Bevaloshta va bilvosita",
+    "option_c": "Qasddan va ehtiyotsizlik orqasida",
+    "option_d": "To'g'ridan-to'g'ri va profilaktik",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "1917-yil 26-28-noyabrda Qo'qon shahrida bo'lib o'tgan O'lkashunos musulmonlarning IV favqulodda syezdida Turkiston Muxtoriyati Xalq Sho'rosi Raisi (Bosh vaziri) etib kim saylangan edi?",
+    "option_a": "Mustafo Cho'qay",
+    "option_b": "Mavlonberdi Mahmudov",
+    "option_c": "Ubaydullaxo'ja Asadullaxo'jayev",
+    "option_d": "Muhammadjon Tinishpayev",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqarolik huquqida shaxsni nazoratsiz yo'qolgan deb topish uchun uning yashash joyida necha yil davomida ma'lumotlar bo'lmasligi kerak?",
+    "option_a": "1 yil davomida",
+    "option_b": "3 yil davomida",
+    "option_c": "6 oy davomida",
+    "option_d": "5 yil davomida",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Kushon imperatori Kanishka I davrida davlat dini va madaniyatida qaysi din homiylik qilingan va keng yoyilgan?",
+    "option_a": "Zardashtiylik",
+    "option_b": "Buddizm",
+    "option_c": "Maniylik",
+    "option_d": "Xristianlik",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "O'zbekiston Respublikasi Konstitutsiyasiga muvofiq, Qonunchilik palatasi va Senatning birgalikdagi vakolatlariga qaysi masala kiradi?",
+    "option_a": "Sudyalar va Oliy sud raislarini saylash",
+    "option_b": "Bosh vazir nomzodini ko'rib chiqish va tasdiqlash",
+    "option_c": "O'zbekiston Respublikasi Konstitutsiyasini va qonunlarini qabul qilish, ularga o'zgartishlar kiritish",
+    "option_d": "Vazirliklarni tugatish va tashkil etish",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Somoniylar davlatida amirdan keyingi ikkinchi shaxs va butun ijroiya devonlar faoliyatini nazorat qiluvchi Bosh vazir qarorgohi qanday nomlangan?",
+    "option_a": "Devoni mustavfiy",
+    "option_b": "Devoni shurta",
+    "option_c": "Devoni omid",
+    "option_d": "Dargoh (Vazir devoni)",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Ma'muriy javobgarlik to'g'risidagi kodeks bo'yicha ma'muriy huquqbuzarlik sodir etilgan kundan e'tiboran eng uzoog'i bilan qancha muddat o'tgach jazo qo'llanilishi mumkin emas?",
+    "option_a": "1 yil (sud ko'rib chiqadigan holatlarda)",
+    "option_b": "2 oy",
+    "option_c": "6 oy",
+    "option_d": "3 yil",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buxoro xonligida Ashtarxoniylar sulolasining so'nggi hukmdori kim bo'lgan?",
+    "option_a": "Subhonqulixon",
+    "option_b": "Abulfayzxon",
+    "option_c": "Ubaydullaxon II",
+    "option_d": "Nadr Muhammadxon",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Jinoyat kodeksining umumiy qismiga ko'ra, og'ir va o'ta og'ir jinoyatlar uchun da'vo muddatining o'tib ketganligi munosabati bilan javobgarlikdan ozod qilish muddati tegishlicha necha yil etib belgilangan?",
+    "option_a": "5 va 10 yil",
+    "option_b": "10 va 15 yil",
+    "option_c": "15 va 20 yil",
+    "option_d": "8 va 12 yil",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Xiva xonligida Qo'ng'irotlar sulolasi hukmronligiga va mustaqil xonlik unvoniga asos solgan hukmdor kim?",
+    "option_a": "Iltuzarxon",
+    "option_b": "Muhammad Rahimxon I",
+    "option_c": "Eltuzar inoq",
+    "option_d": "Allaqulixon",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Oila kodeksiga muvofiq, qaysi holatda er xotinining roziligisiz nikohdan ajratish haqida sudga da'vo taqdim etish huquqiga ega emas?",
+    "option_a": "Xotinning og'ir kasalligi davrida",
+    "option_b": "Xotinning homiladorlik vaqtida va bola tug'ilgandan so'ng bir yil mobaynida",
+    "option_c": "Farzandlar voyaga yetguniga qadar",
+    "option_d": "Xotin ishsiz bo'lgan barcha holatlarda",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Abu Rayhon Beruniyning astronomiyaga bag'ishlangan, G'aznaviy sultoniga atab yozilgan mashhur ensiklopedik asari qaysi?",
+    "option_a": "Osorul-boqiya",
+    "option_b": "Kitob al-Jamohir",
+    "option_c": "Qanoni Ma'sudiy",
+    "option_d": "Saydana",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqarolik huquqida javobgarlikni vujudga keltiruvchi 'Fors-major' holati nima?",
+    "option_a": "Taraflardan birining bankrot bo'lishi",
+    "option_b": "Bozor narxlarining keskin o'zgarishi",
+    "option_c": "Shartnoma shartlarining noaniqligi",
+    "option_d": "Yengib bo'lmas kuch (favqulodda va oldini olib bo'lmaydigan holatlar)",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Qadimgi baqtriyaliklar va so'g'diylarning asosiy muqaddas kitobi 'Avesto' qaysi tilda yaratilgan va to'plangan?",
+    "option_a": "Avesto (Qadimgi eroniy) tilida",
+    "option_b": "Pahlaviy tilida",
+    "option_c": "Sanskrit tilida",
+    "option_d": "Oramiy tilida",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Mehnat kodeksiga ko'ra, 16 yoshdan 18 yoshgacha bo'lgan xodimlar uchun haftalik qisqartirilgan ish vaqti davomiyligi ko'pi bilan necha soatni tashkil etadi?",
+    "option_a": "24 soat",
+    "option_b": "36 soat",
+    "option_c": "30 soat",
+    "option_d": "40 soat",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekistonda XIX asr oxirida Chor Rossiyasi mustamlakachiligiga qarshi ko'tarilgan eng yirik xalq g'alayonlaridan biri — 'Dukchi Eshon' qozg'oloni qachon va qayerda sodir bo'lgan?",
+    "option_a": "1892-yil Toshkentda",
+    "option_b": "1916-yil Jizzaxda",
+    "option_c": "1898-yil Andijonda (Mingtepa)",
+    "option_d": "1875-yil Qo'qonda",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Nisbiylik printsipiga muvofiq, ma'muriy tartib-taomillar to'g'risidagi qonunchilikda jismoniy va yuridik shaxslar ishonchining himoya qilinishi printsipi nimani anglatadi?",
+    "option_a": "Davlat organining qonuniy hujjatiga fuqaro bildirishgan ishonchining davlat tomonidan himoyalanishini",
+    "option_b": "Faqat advokatlar ma'lumotlarining sir saqlanishini",
+    "option_c": "Sudyalar daxlsizligini",
+    "option_d": "Tadbirkorlarning soliq imtiyozlarini",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Shayboniylar davlatida ma'muriy va harbiy islohotlar o'tkazib, davlat poytaxtini Samarqanddan Buxoroga ko'chirgan hukmdor kim?",
+    "option_a": "Mahmud Sulton",
+    "option_b": "Ubaydullaxon",
+    "option_c": "Jonibek Sulton",
+    "option_d": "Muhammad Shayboniyxon",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Fuqarolik protsessida birinchi instansiya sudining hal qiluv qaroridan norozi bo'lgan taraf qanday tartibda shikoyat beradi?",
+    "option_a": "Kassatsiya tartibida",
+    "option_b": "Nazorat tartibida",
+    "option_c": "Apellyatsiya tartibida",
+    "option_d": "Prezident Virtual qabulxonasiga",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Buxoro xonligida Mang'itlar sulolasi davrida xonlik rasman qanday nomlana boshlagan?",
+    "option_a": "Buxoro Xonligi",
+    "option_b": "Movarounnahr Davlati",
+    "option_c": "O'zbek Ulusi",
+    "option_d": "Buxoro Amirligi",
+    "correct_option": "D"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Normativ-huquqiy hujjat loyihasining aksakorruptsiyaviy ekspertizasi qaysi organ tomonidan majburiy tartibda muvofiqlashtiriladi?",
+    "option_a": "O'zbekiston Respublikasi Adliya vazirligi hamda Korrupsiyaga qarshi kurashish agentligi",
+    "option_b": "Faqat Bosh Prokuratura",
+    "option_c": "Hisob palatasi",
+    "option_d": "Oliy sud",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "Temuriylar davrida Harbiylar va lashkar ishlari bo'yicha mas'ul bo'lgan oliy harbiy mansabdor kim hisoblangan?",
+    "option_a": "Qushbegi",
+    "option_b": "Amir ul-umaro (Tavachi va dodxohlar bilan birga)",
+    "option_c": "Parvonachi",
+    "option_d": "Shixna",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Meros huquqida majburiy ulush olish huquqiga ega bo'lgan shaxslar vasiyatnoma mazmunidan qat'i nazar, qonun bo'yicha ularga tegishli bo'lgan ulushning kamida qanchasini oladilar?",
+    "option_a": "Teng yarmini (1/2 qismini)",
+    "option_b": "Uchdan birini (1/3 qismini)",
+    "option_c": "To'liq ulushni",
+    "option_d": "To'rtdan birini (1/4 qismini)",
+    "correct_option": "A"
+  },
+  {
+    "subject": "Tarix",
+    "question": "O'zbekiston hududidagi eng qadimiy odam manzilgohlaridan biri hisoblangan Selung'ur g'ori qaysi viloyat/hududda joylashgan?",
+    "option_a": "Toshkent viloyatida",
+    "option_b": "Samarqand viloyatida",
+    "option_c": "Farg'ona vodiysi (Farg'ona/So'x)da",
+    "option_d": "Surxondaryo viloyatida",
+    "correct_option": "C"
+  },
+  {
+    "subject": "Huquq",
+    "question": "Jinoyat kodeksiga ko'ra, shaxsni harakat yoki harakatsizligi uchun jinoiy javobgarlikka tortishda harakatning qaysi belgisi majburiy hisoblanadi?",
+    "option_a": "Niyatning mavjudligi",
+    "option_b": "Ijtimoiy xavflilik",
+    "option_c": "Moddiy zarar yetkazilganligi",
+    "option_d": "Guvohlarning borligi",
+    "correct_option": "B"
+  },
+  {
+    "subject": "Tarix",
+    "question": "1924-yilda O'rta Osiyoda amalga oshirilgan 'Milliy-hududiy chegaralanish' natijasida qaysi respublika tashkil topgan?",
+    "option_a": "Turkiston ASSR",
+    "option_b": "Buxoro XSR",
+    "option_c": "O'zbekiston Sovet Sotsialistik Respublikasi (O'zSSR)",
+    "option_d": "Zarafshon Muxtoriyoti",
+    "correct_option": "C"
+  },
+  
