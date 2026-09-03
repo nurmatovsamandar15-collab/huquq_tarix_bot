@@ -2,12 +2,12 @@ import logging
 from aiogram import Router, F, Bot
 from aiogram.types import Message, CallbackQuery
 from db import (
-    save_receipt, is_transaction_used, mark_transaction_used,
+    save_receipt, is_transaction_used,
     grant_subscription, approve_receipt, reject_receipt
 )
 from ocr import parse_receipt
 from kb import admin_receipt_kb
-from config import ADMIN_IDS, OCR_MIN_AMOUNT, OCR_MAX_AMOUNT
+from config import ADMIN_IDS
 
 router = Router()
 
@@ -21,20 +21,18 @@ async def handle_receipt_photo(message: Message, bot: Bot):
 
     msg = await message.answer("🔍 Chek tahlil qilinmoqda, kuting...")
 
-    result = await parse_receipt(
-        image_bytes=image_bytes,
-        min_amount=OCR_MIN_AMOUNT,
-        max_amount=OCR_MAX_AMOUNT
-    )
+    # OCR funksiyasi ortiqcha argumentlarsiz chaqiriladi
+    result = await parse_receipt(image_bytes)
 
-    tx_id = result.transaction_id
-    amount = result.amount
+    tx_id = getattr(result, 'transaction_id', None)
+    amount = getattr(result, 'amount', None)
+    raw_text = getattr(result, 'raw_text', "")
 
     if tx_id and await is_transaction_used(tx_id):
         await msg.edit_text("❌ Ushbu chek ilgari ishlatilgan! Takroriy cheklar qabul qilinmaydi.")
         return
 
-    receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, result.raw_text)
+    receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, raw_text)
     
     if not ADMIN_IDS:
         logging.error("❌ ADMIN_IDS bo'sh! Render Environment Variables sozlamasini tekshiring.")
@@ -64,7 +62,7 @@ async def approve_pay(call: CallbackQuery, bot: Bot):
     user_id = await approve_receipt(receipt_id, call.from_user.id)
     if user_id:
         await grant_subscription(user_id, granted_by="admin")
-        await bot.send_message(user_id, "🎉 Siz yuborgan to'lov admin tomonidan tasdiqlandi! 30 kunlik VIP obuna yoqildi.")
+        await bot.send_message(user_id, "🎉 Siz yuborgan to'lov admin tomonidan tasdiqlandi! VIP obuna yoqildi.")
         await call.message.edit_caption(caption=f"{call.message.caption}\n\n✅ **ADMIN TARAFIDAN TASDIQLANDI**")
     await call.answer()
 
