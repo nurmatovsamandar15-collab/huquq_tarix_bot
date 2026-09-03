@@ -1,3 +1,4 @@
+import logging
 from aiogram import Router, F, Bot
 from aiogram.types import Message, CallbackQuery
 from db import (
@@ -18,7 +19,7 @@ async def handle_receipt_photo(message: Message, bot: Bot):
     downloaded_file = await bot.download_file(file_info.file_path)
     image_bytes = downloaded_file.read()
 
-    msg = await message.answer("🔍 Chek admin tekshiruviga tayyorlanmoqda, kuting...")
+    msg = await message.answer("🔍 Chek tahlil qilinmoqda, kuting...")
 
     result = await parse_receipt(
         image_bytes=image_bytes,
@@ -33,9 +34,11 @@ async def handle_receipt_photo(message: Message, bot: Bot):
         await msg.edit_text("❌ Ushbu chek ilgari ishlatilgan! Takroriy cheklar qabul qilinmaydi.")
         return
 
-    # Barcha cheklar avtomatik tasdiqlanmasdan, to'g'ri admin tekshiruviga yuboriladi
     receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, result.raw_text)
     
+    if not ADMIN_IDS:
+        logging.error("❌ ADMIN_IDS bo'sh! Render Environment Variables sozlamasini tekshiring.")
+
     for admin_id in ADMIN_IDS:
         try:
             await bot.send_photo(
@@ -50,8 +53,8 @@ async def handle_receipt_photo(message: Message, bot: Bot):
                 reply_markup=admin_receipt_kb(receipt_id),
                 parse_mode="Markdown"
             )
-        except Exception:
-            pass
+        except Exception as e:
+            logging.error(f"❌ Admin {admin_id} ga xabar yuborishda xatolik: {e}")
     
     await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi. Tez orada obunangiz yoqiladi.")
 
