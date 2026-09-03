@@ -18,7 +18,7 @@ async def handle_receipt_photo(message: Message, bot: Bot):
     downloaded_file = await bot.download_file(file_info.file_path)
     image_bytes = downloaded_file.read()
 
-    msg = await message.answer("🔍 Chek tahlil qilinmoqda, kuting...")
+    msg = await message.answer("🔍 Chek admin tekshiruviga tayyorlanmoqda, kuting...")
 
     result = await parse_receipt(
         image_bytes=image_bytes,
@@ -33,34 +33,27 @@ async def handle_receipt_photo(message: Message, bot: Bot):
         await msg.edit_text("❌ Ushbu chek ilgari ishlatilgan! Takroriy cheklar qabul qilinmaydi.")
         return
 
-    if result.is_valid_amount:
-        if tx_id:
-            await mark_transaction_used(tx_id, message.from_user.id)
-        
-        await grant_subscription(message.from_user.id, granted_by="auto")
-        await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, result.raw_text)
-        await msg.edit_text("🎉 To'lovingiz avtomatik tasdiqlandi! 30 kunlik VIP obuna aktivlashtirildi.")
-    else:
-        receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, result.raw_text)
-        
-        for admin_id in ADMIN_IDS:
-            try:
-                await bot.send_photo(
-                    chat_id=admin_id,
-                    photo=photo.file_id,
-                    caption=(
-                        f"⚠️ **Yangi chek (Qo'lda tasdiqlash):**\n"
-                        f"👤 Foydalanuvchi: {message.from_user.full_name} (`{message.from_user.id}`)\n"
-                        f"💵 Summa: {amount if amount else 'Noma\'lum'}\n"
-                        f"🆔 TX ID: {tx_id if tx_id else 'Noma\'lum'}"
-                    ),
-                    reply_markup=admin_receipt_kb(receipt_id),
-                    parse_mode="Markdown"
-                )
-            except Exception:
-                pass
-        
-        await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi. Tez orada obunangiz yoqiladi.")
+    # Barcha cheklar avtomatik tasdiqlanmasdan, to'g'ri admin tekshiruviga yuboriladi
+    receipt_id = await save_receipt(message.from_user.id, photo.file_id, tx_id, amount, result.raw_text)
+    
+    for admin_id in ADMIN_IDS:
+        try:
+            await bot.send_photo(
+                chat_id=admin_id,
+                photo=photo.file_id,
+                caption=(
+                    f"⚠️ **Yangi chek (Qo'lda tasdiqlash):**\n"
+                    f"👤 Foydalanuvchi: {message.from_user.full_name} (`{message.from_user.id}`)\n"
+                    f"💵 Summa: {amount if amount else 'Noma\'lum'}\n"
+                    f"🆔 TX ID: {tx_id if tx_id else 'Noma\'lum'}"
+                ),
+                reply_markup=admin_receipt_kb(receipt_id),
+                parse_mode="Markdown"
+            )
+        except Exception:
+            pass
+    
+    await msg.edit_text("📩 Chekingiz qabul qilindi va admin tekshiruviga yuborildi. Tez orada obunangiz yoqiladi.")
 
 @router.callback_query(F.data.startswith("approve_"))
 async def approve_pay(call: CallbackQuery, bot: Bot):
