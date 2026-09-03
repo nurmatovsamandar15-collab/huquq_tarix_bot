@@ -32,8 +32,11 @@ async def process_subject_choice(call: CallbackQuery):
 
     if subject == "mixed":
         questions = await get_mixed_questions(QUESTIONS_PER_TEST)
+        session_subject = "mixed"
     else:
-        questions = await get_random_questions(subject, QUESTIONS_PER_TEST)
+        # Callback'dan kelgan 'huquq' yoki 'tarix'ni bazadagidek 'Huquq' / 'Tarix' ko'rinishiga o'tkazamiz
+        session_subject = subject.capitalize()
+        questions = await get_random_questions(session_subject, QUESTIONS_PER_TEST)
 
     if not questions:
         await call.message.answer("⚠️ Baza hozircha bu fan bo'yicha savollar yetarli emas.")
@@ -41,7 +44,7 @@ async def process_subject_choice(call: CallbackQuery):
         return
 
     q_ids = [q['id'] for q in questions]
-    session_id = await create_test_session(user_id, subject, q_ids)
+    session_id = await create_test_session(user_id, session_subject, q_ids)
 
     sub = await get_active_subscription(user_id)
     if not sub:
